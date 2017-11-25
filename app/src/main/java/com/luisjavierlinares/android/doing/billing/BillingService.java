@@ -22,9 +22,8 @@ public class BillingService {
     private static final String APP_FULL_NAME = "com.luisjavierlinares.android.doing";
 
     private static final String SKU_REMOVE_ADS = "doing.remove_ads";
-//    private static final String SKU_REMOVE_ADS = "android.test.canceled";
-    private static final String BASE64_ENCODED_PUBLIC_KEY = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2d/ZmNnlSMRt8p9F02p6rvOjXq05F1XGDop66vxevusdDaqSq4OkMF7iBytiUW1GaOBPE/W88R5lfbiI5ZXuAmkSUmHr7aowwIXzaNWlUsyI1WXozgEoqF7lY8fIob7+QmDaPqdq+klzGdOpNUjlHEPQUKNF4/pKOhNbiVq6PJHM9BFzX//y6kvgd4fJGOOP1YpCpnYbLI+ShRd+zsWsUQmZGzO5ZbgGVmMFkoittb9jSohl/OiF8OwvCAvgmEeQXvmESVdTgyFNDalKVk8CCyhYrixbemp8m1inlRXG4UrfKtb5XrzqUjzaF9qh41wH+C06vEPgDpCMrR0SvCPUUwIDAQAB";
-    private static final String DEVELOPER_PAYLOAD = "ZFXijdu8UIHAX9XhuG";
+    private static final String BASE64_ENCODED_PUBLIC_KEY = "xxxxxxx";
+    private static final String DEVELOPER_PAYLOAD = "xxxxx";
 
     private static int RESPONSE_ALREADY_OWNED = 7;
 
