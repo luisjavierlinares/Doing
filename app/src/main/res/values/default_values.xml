@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="user_name_max_ems">6</string>
+    <string name="user_name_max_length">30</string>
+    <string name="recovery_code_length">50</string>
+    <string name="commentary_max_length">1024</string>
+    <dimen name="user_name_max_width">120dp</dimen>
+    <dimen name="user_name_short_max_width">70dp</dimen>
+    <dimen name="user_name_friend_tab_max_width">90dp</dimen>
+</resources>
+
+<!-- ¡¡¡ Include any modification in values/strings.xml(es) -->

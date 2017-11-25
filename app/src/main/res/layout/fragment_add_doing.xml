@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="24dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <include layout="@layout/user_avatar"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    android:maxLength="15"
+                    android:maxLines="1"
+                    android:text="@string/I"
+                    android:textColor="@color/black"
+                    android:textStyle="normal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    android:maxLines="1"
+                    android:text="@string/am"
+                    android:textColor="@color/black"
+                    android:textStyle="normal"/>
+
+                <ImageButton
+                    android:id="@+id/add_doing_action_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:contentDescription="Action"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:src="@drawable/action_enjoying"/>
+
+            </LinearLayout>
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/add_doing_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:hint="@string/doing_this"
+                android:textSize="16sp"
+                android:inputType="text"
+                android:maxLength="120"
+                android:imeOptions="actionDone"
+                android:maxLines="1"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:maxLines="1"
+            android:text="@string/add_doing_send_to"
+            android:textColor="@color/black"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:id="@+id/add_doing_select_friends_button"
+            android:textColor="@color/colorAccent"
+            android:paddingLeft="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_doing_all_my_friends"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/selectable_friend"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center_horizontal"
+              android:gravity="center_horizontal"
+              android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/suggested_friend_button"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_gravity="center_vertical|left"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:src="@drawable/ic_plus_sign_black"
+            android:tint="@color/colorAccent"/>
+
+        <TextView
+            android:id="@+id/suggested_friend_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|left"
+            android:gravity="center_vertical|left"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_marginLeft="8dp"
+            android:maxEms="12"
+            android:textIsSelectable="true"
+            android:textStyle="normal"
+            tools:text="This User Name"/>
+
+    </LinearLayout>
+
+</LinearLayout>

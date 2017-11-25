@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ads_test_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="ads_bannerDoing001_id">ca-app-pub-2740169353239994/9529249473</string>
+
+    <string name="ads_id">@string/ads_bannerDoing001_id</string>
+</resources>
+
+<!-- ¡¡¡ Include any modification in values/strings.xml(es) -->

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/menu_item_listening"
+        android:icon="@drawable/action_listening"
+        android:title="@string/listening"
+        app:showAsAction="always|withText"/>
+
+    <item
+        android:id="@+id/menu_item_playing"
+        android:icon="@drawable/action_playing"
+        android:title="@string/playing"
+        app:showAsAction="always|withText"/>
+
+    <item
+        android:id="@+id/menu_item_reading"
+        android:icon="@drawable/action_reading"
+        android:title="@string/reading"
+        app:showAsAction="always|withText"/>
+
+    <item
+        android:id="@+id/menu_item_watching"
+        android:icon="@drawable/action_watching"
+        android:title="@string/watching"
+        app:showAsAction="always|withText"/>
+
+    <item
+        android:id="@+id/menu_item_enjoying"
+        android:icon="@drawable/action_enjoying"
+        android:title="@string/enjoying"
+        app:showAsAction="always|withText"/>
+
+</menu>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <exclude domain="database" path="doingBase.db" />
+    <exclude domain="database" path="doingReceiversBase.db" />
+    <exclude domain="database" path="commentaryBase.db" />
+    <exclude domain="database" path="likeBase.db" />
+</full-backup-content>
